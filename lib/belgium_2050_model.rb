@@ -1,0 +1,7 @@
+require_relative "belgium_2050_model/belgium_2050_model"
+require_relative "belgium_2050_model/belgium_2050_model_utilities"
+require_relative "belgium_2050_model/belgium_2050_model_result"
+require_relative "belgium_2050_model/model_structure"
+require_relative "belgium_2050_model/model_choice"
+require_relative "belgium_2050_model/model_alternative"
+require_relative "belgium_2050_model/belgium_2050_model_version"
