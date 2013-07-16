@@ -29,7 +29,8 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   end
       
   def all_energy_tables
-    pathway[:ghg] = table 399, 400, 401, 402, 403, 404, 405, 406, 411, 412, 427# Each number is a row on the CONTROL worksheet
+    # Each number is a row on the CONTROL worksheet
+    pathway[:ghg] = table 399, 400, 401, 402, 403, 404, 405, 406, 407, 409, 411, 412 
     pathway[:final_energy_demand, ] = table 12, 16, 19, 21
     pathway[:primary_energy_supply] = table 27, 28, 29, 30, 31, 32, 33, 34, 36, 41, 44, 48, 51, 52
   end
@@ -48,7 +49,7 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   end
 
   def story_tables
-    pathway[:ghg][:percent_reduction_from_1990] = (r("control_ae44") * 100).round
+    #pathway[:ghg][:percent_reduction_from_1990] = (r("control_ae44") * 100).round
   end
 
   def air_quality_tables
