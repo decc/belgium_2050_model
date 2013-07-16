@@ -1,4 +1,4 @@
-require_relative 'belgium_2050_model'
+require_relative '../belgium_2050_model'
 require 'singleton'
 
 class ModelStructure < Belgium2050ModelUtilities
@@ -22,12 +22,16 @@ class ModelStructure < Belgium2050ModelUtilities
     excel.control_m1
   end
   
+  def controls(col1, col2)
+    (4..55).to_a.map { |row| excel.send("control_#{col1}#{row}") } + (4..32).to_a.map { |row| excel.send("control_#{col2}#{row}") }
+  end
+
   def types
-    @types ||= (5..57).to_a.map { |row| excel.send("control_f#{row}") }
+    @types ||= controls('p', 'aj')
   end
   
   def names
-    @names ||= (5..57).to_a.map { |row| excel.send("control_d#{row}") }
+    @names ||= controls('f', 'z')
   end
 
   def descriptions

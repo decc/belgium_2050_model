@@ -12,7 +12,7 @@ file 'ext/belgium_2050_model.c' do
   command.output_directory = 'ext'
   command.output_name = 'belgium_2050_model'
 
-  command.cells_that_can_be_set_at_runtime = { "CONTROL" => (4.upto(55).to_a.map { |r| "h#{r}" })+(4.upto(32).to_a.map { |r| "aa#{r}" })}
+  command.cells_that_can_be_set_at_runtime = { "CONTROL" => (4.upto(55).to_a.map { |r| "h#{r}" })+(4.upto(32).to_a.map { |r| "ab#{r}" })}
 
   command.cells_to_keep = {
     # The names, limits, 10 worders, long descriptions

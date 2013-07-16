@@ -15,35 +15,65 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
     Thread.exclusive do 
       reset
       @pathway = { _id: code, choices: set_choices(code) }
-      primary_energy_tables
+      # One method per view
+      all_energy_tables
+      electricity_tables
+      energy_security_tables
+      energy_flow_tables
+      area_tables
+      story_tables
+      air_quality_tables # Not implemented
+      costs_tables
     end
     return pathway
   end
       
-  def primary_energy_tables
-    #pathway[:ghg] = table 182, 192
-    #pathway[:final_energy_demand, ] = table 13, 18
-    #pathway[:primary_energy_supply] = table 283, 296
-    pathway[:ghg][:percent_reduction_from_1990] = (r("control_ad44") * 100).round
+  def all_energy_tables
+    pathway[:ghg] = table 399, 400, 401, 402, 403, 404, 405, 406, 411, 412, 427# Each number is a row on the CONTROL worksheet
+    pathway[:final_energy_demand, ] = table 12, 16, 19, 21
+    pathway[:primary_energy_supply] = table 27, 28, 29, 30, 31, 32, 33, 34, 36, 41, 44, 48, 51, 52
+  end
+
+  def electricity_tables
+  end
+
+  def energy_security_tables
+  end
+
+  def energy_flow_tables
+    # Not implemented
+  end
+
+  def area_tables
+  end
+
+  def story_tables
+    pathway[:ghg][:percent_reduction_from_1990] = (r("control_ae44") * 100).round
+  end
+
+  def air_quality_tables
+    # Not implemented
+  end
+
+  def costs_tables
   end
   
-  
   # Helper methods
-  
-  def table(start_row,end_row)
+ 
+  def table(*rows)
     t = {}
-    (start_row..end_row).each do |row|
-      t[label("intermediate_output",row)] = annual_data("intermediate_output",row)
+    rows.each do |row|
+      t[label("output",row)] = annual_data("output",row)
     end
     t
   end
   
   def label(sheet,row)
-    r("#{sheet}_d#{row}").to_s
+    r("#{sheet}_e#{row}").to_s
   end
   
   def annual_data(sheet,row)
-    ['az','ba','bb','bc','bd','be','bf','bg','bh'].map { |c| r("#{sheet}_#{c}#{row}") }
+    ['ac','ad','ae','af','ag','ah','ai','aj','ak'].map { |c| r("#{sheet}_#{c}#{row}") }
   end
   
   def sum(hash_a,hash_b)
@@ -53,6 +83,54 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
       summed_hash[key] = value + hash_b[key]
     end
     return summed_hash
+  end
+  
+  # Set the 9 decimal points between 1.1 and 3.9
+  FLOAT_TO_LETTER_MAP = Hash["abcdefghijklmnopqrstuvwxyzABCD".split('').map.with_index { |l,i| [(i/10.0)+1,l] }]
+  FLOAT_TO_LETTER_MAP[0.0] = '0'
+  FLOAT_TO_LETTER_MAP[1.0] = '1'
+  FLOAT_TO_LETTER_MAP[2.0] = '2'
+  FLOAT_TO_LETTER_MAP[3.0] = '3'
+  FLOAT_TO_LETTER_MAP[4.0] = '4'
+  
+  LETTER_TO_FLOAT_MAP = FLOAT_TO_LETTER_MAP.invert
+  
+  # NB: The Belgian calcualtor has some inputs 10..40 rather than 1..4
+  def convert_float_to_letters(array)
+    array.map.with_index do |entry, i|
+      type = ModelStructure.instance.types[i]
+      entry = (entry / 10.0) if entry && type && type > 4
+      case entry
+      when Float; FLOAT_TO_LETTER_MAP[entry] || entry
+      when nil; 0
+      else entry
+      end
+    end
+  end
+  
+  # NB: The Belgian calcualtor has some inputs 10..40 rather than 1..4
+  # so adjust here. Also do maximum value check.
+  def convert_letters_to_float(array)
+    array.map.with_index do |entry,i|
+      original = (LETTER_TO_FLOAT_MAP[entry].to_f || entry.to_f)
+      type = ModelStructure.instance.types[i]
+      if type == nil
+        0
+      elsif type < 10
+        [original, type].min
+      else
+        [original * 10, type].min
+      end
+    end
+  end
+  
+  CONTROL = (4..55).to_a.map { |r| "control_h#{r}"  } + (4..32).to_a.map { |r| "control_aa#{r}" }
+  
+  def set_choices(code)
+    choices = code.split('')
+    choices = convert_letters_to_float(choices)
+    set_array(CONTROL,choices)
+    choices
   end
   
 end
