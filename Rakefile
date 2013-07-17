@@ -18,7 +18,9 @@ file 'ext/belgium_2050_model.c' do
     # The names, limits, 10 worders, long descriptions
     "CONTROL" => :all,
     "OUTPUT" => :all,
-    "Costs" => :all, 
+    "CostsPerCapita" => :all, 
+    "Land use" => :all, 
+    "Flows" => :all, 
   }
 
   command.actually_compile_code = true

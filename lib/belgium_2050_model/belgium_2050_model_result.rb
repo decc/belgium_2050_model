@@ -97,19 +97,6 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   LETTER_TO_FLOAT_MAP = FLOAT_TO_LETTER_MAP.invert
   
   # NB: The Belgian calcualtor has some inputs 10..40 rather than 1..4
-  def convert_float_to_letters(array)
-    array.map.with_index do |entry, i|
-      type = ModelStructure.instance.types[i]
-      entry = (entry / 10.0) if entry && type && type > 4
-      case entry
-      when Float; FLOAT_TO_LETTER_MAP[entry] || entry
-      when nil; 0
-      else entry
-      end
-    end
-  end
-  
-  # NB: The Belgian calcualtor has some inputs 10..40 rather than 1..4
   # so adjust here. Also do maximum value check.
   def convert_letters_to_float(array)
     array.map.with_index do |entry,i|
@@ -125,7 +112,7 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
     end
   end
   
-  CONTROL = (4..55).to_a.map { |r| "control_h#{r}"  } + (4..32).to_a.map { |r| "control_aa#{r}" }
+  CONTROL = (4..55).to_a.map { |r| "control_h#{r}"  } + (4..32).to_a.map { |r| "control_ab#{r}" }
   
   def set_choices(code)
     choices = code.split('')

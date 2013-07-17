@@ -11,7 +11,7 @@ class ModelStructure < Belgium2050ModelUtilities
     @choices = []
     types.each_with_index do |choice_type,i|
       case choice_type
-      when nil, 0.0; next
+      when nil, 0.0, 10; next
       when /[abcd]/i; choices << ModelAlternative.new(i,names[i],choice_type,descriptions[i],long_descriptions[i])
       else; choices << ModelChoice.new(i,names[i],choice_type,descriptions[i],long_descriptions[i])
       end
@@ -35,7 +35,7 @@ class ModelStructure < Belgium2050ModelUtilities
   end
 
   def descriptions
-    @descriptions ||= (5..57).to_a.map { |row| [r("control_h#{row}"),r("control_i#{row}"),r("control_j#{row}"),r("control_k#{row}")] }
+    @descriptions ||= (4..55).to_a.map { |row| [r("control_q#{row}"),r("control_r#{row}"),r("control_s#{row}"),r("control_t#{row}")] } + (4..32).to_a.map { |row| [r("control_ak#{row}"),r("control_al#{row}"),r("control_am#{row}"),r("control_an#{row}")] }
   end
 
   def long_descriptions
@@ -43,41 +43,47 @@ class ModelStructure < Belgium2050ModelUtilities
   end
     
   def demand_choices
-    choices[21..39]
+    choices[0..23]
+  end
+
+  def industry_choices
+    choices[24..44]
+
   end
   
   def supply_choices
-    choices[0..20]
-  end
-  
-  def geosequestration_choice
-    choices[40]
-  end
-  
-  def balancing_choice
-    choices[41]
+    choices[46..64]
   end
 
-  def indigenous_fossil_fuel_production
-    choices[42]
-  end
-  
   def example_pathways
     @example_pathways ||= generate_example_pathways
   end
   
   def generate_example_pathways
-    ('m'..'z').to_a.push('aa','ab').map do |column|
+    %w{ar as at au av aw ax ay az ba}.map do |column|
+      code = ((4..57).to_a + (64..92).to_a).map { |row| r("control_#{column}#{row}") }
+      p code.length
       {
-        name: r("control_#{column}4"),
-        code: convert_float_to_letters((5..57).map { |row| r("control_#{column}#{row}") }).join,
-        description: wrap(r("control_#{column}58")),
-        wiki: r("control_#{column}59"),
-        cost_comparator: (c = r("control_#{column}60"); c.is_a?(Numeric) ? c : nil )
+        name: r("control_#{column}1"),
+        code: convert_float_to_letters(code).join,
       }
     end
   end
 
+  # NB: The Belgian calcualtor has some inputs 10..40 rather than 1..4
+  def convert_float_to_letters(array)
+    array.map.with_index do |entry, i|
+      type = types[i]
+      entry = (entry / 10.0) if entry && type && type > 4
+      p [type, entry]
+      case entry
+      when nil; 0
+      when Float; Belgium2050ModelResult::FLOAT_TO_LETTER_MAP[entry] || entry
+      else entry
+      end
+    end
+  end
+  
   # FIXME: Only wraps one line into two
   def wrap(string, wrap_at_length = 45)
     return "" unless string
