@@ -39,8 +39,8 @@ if servers.empty?
   puts "Bootstrapping a server"
   server = connection.servers.bootstrap(
     #:image_id => 'ami-1de8d369', # Ubuntu 12.04
-    # :image_id => 'ami-41cacb35', # Ubuntu 11.10
-    :image_id => 'ami-bbadb0cf', # Ubuntu 10.04 eu-west-1 64-bit instance storage
+    :image_id => 'ami-41cacb35', # Ubuntu 11.10
+    #:image_id => 'ami-bbadb0cf', # Ubuntu 10.04 eu-west-1 64-bit instance storage
     :flavor_id=> 'c1.xlarge',
     :private_key_path => '~/.ssh/id_rsa', # Change this if you use something else
     :public_key_path => '~/.ssh/id_rsa.pub', # Change this if you use something else

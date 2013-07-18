@@ -1,18 +1,12 @@
-GIT
-  remote: ~/Documents/github/excel_to_code
-  revision: 27ea241846bbe2cef39451d6c3a281f8cf64229f
-  branch: master
-  specs:
-    excel_to_code (0.1.10)
-      ffi (>= 1.0.11)
-      nokogiri (>= 1.5.0)
-      rspec (>= 2.7.0)
-      rubypeg
-
 GEM
   remote: http://rubygems.org/
   specs:
     diff-lcs (1.2.4)
+    excel_to_code (0.1.11)
+      ffi (>= 1.0.11)
+      nokogiri (>= 1.5.0)
+      rspec (>= 2.7.0)
+      rubypeg
     ffi (1.9.0)
     mini_portile (0.5.0)
     minitest (5.0.5)
@@ -35,7 +29,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  excel_to_code!
+  excel_to_code (= 0.1.11)
   ffi
   minitest
   rake
