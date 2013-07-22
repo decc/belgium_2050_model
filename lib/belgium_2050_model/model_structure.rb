@@ -61,8 +61,7 @@ class ModelStructure < Belgium2050ModelUtilities
   
   def generate_example_pathways
     %w{ar as at au av aw ax ay az ba}.map do |column|
-      code = ((4..57).to_a + (64..92).to_a).map { |row| r("control_#{column}#{row}") }
-      p code.length
+      code = ((4..55).to_a + (62..90).to_a).map { |row| r("control_#{column}#{row}") }
       {
         name: r("control_#{column}1"),
         code: convert_float_to_letters(code).join,
@@ -74,8 +73,8 @@ class ModelStructure < Belgium2050ModelUtilities
   def convert_float_to_letters(array)
     array.map.with_index do |entry, i|
       type = types[i]
+      entry = 0 if type == nil || type == 0
       entry = (entry / 10.0) if entry && type && type > 4
-      p [type, entry]
       case entry
       when nil; 0
       when Float; Belgium2050ModelResult::FLOAT_TO_LETTER_MAP[entry] || entry
