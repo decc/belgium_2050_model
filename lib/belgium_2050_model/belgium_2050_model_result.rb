@@ -63,6 +63,10 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   end
 
   def costs_tables
+    c = {}
+    c[:sector] = table 492, 497, 502, 507
+    c[:type] = table 509, 510, 511
+    pathway[:simple_costs] = c
   end
   
   # Helper methods
