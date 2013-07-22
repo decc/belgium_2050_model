@@ -36,6 +36,12 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   end
 
   def electricity_tables
+    e = {}
+    # Each number is a row on the CONTROL worksheet
+    e[:emissions] = table 441, 442, 443, 444
+    e[:demand] = table 94, 97, 110, 120
+    e[:supply] = table 130, 131, 135, 136, 137, 138, 139, 141, 142, 143, 146, 149, 151
+    pathway[:electricity] = e
   end
 
   def energy_security_tables
