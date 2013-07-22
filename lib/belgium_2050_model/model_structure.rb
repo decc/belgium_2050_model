@@ -43,16 +43,16 @@ class ModelStructure < Belgium2050ModelUtilities
   end
     
   def demand_choices
-    choices[0..23]
+    choices[0..22]
   end
 
   def industry_choices
-    choices[24..44]
+    choices[23..43]
 
   end
   
   def supply_choices
-    choices[46..64]
+    choices[44..64]
   end
 
   def example_pathways
