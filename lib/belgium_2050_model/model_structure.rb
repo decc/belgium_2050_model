@@ -27,19 +27,19 @@ class ModelStructure < Belgium2050ModelUtilities
   end
 
   def types
-    @types ||= controls('p', 'aj')
+    @types ||= controls('p', 'an')
   end
   
   def names
-    @names ||= controls('f', 'z')
+    @names ||= controls('f', 'ad')
   end
 
   def descriptions
-    @descriptions ||= (4..55).to_a.map { |row| [r("control_q#{row}"),r("control_r#{row}"),r("control_s#{row}"),r("control_t#{row}")] } + (4..32).to_a.map { |row| [r("control_ak#{row}"),r("control_al#{row}"),r("control_am#{row}"),r("control_an#{row}")] }
+    @descriptions ||= (4..55).to_a.map { |row| [r("control_q#{row}"),r("control_r#{row}"),r("control_s#{row}"),r("control_t#{row}")] } + (4..32).to_a.map { |row| [r("control_ao#{row}"),r("control_ap#{row}"),r("control_aq#{row}"),r("control_ar#{row}")] }
   end
 
   def long_descriptions
-    @long_descriptions ||=  (5..57).to_a.map  { |row| [r("control_bo#{row}"), r("control_bp#{row}"),r("control_bq#{row}"),r("control_br#{row}")] }
+    @long_descriptions ||= (4..55).to_a.map { |row| [r("control_u#{row}"),r("control_v#{row}"),r("control_w#{row}"),r("control_x#{row}")] } + (4..32).to_a.map { |row| [r("control_as#{row}"),r("control_at#{row}"),r("control_au#{row}"),r("control_av#{row}")] }
   end
     
   def demand_choices
@@ -60,7 +60,7 @@ class ModelStructure < Belgium2050ModelUtilities
   end
   
   def generate_example_pathways
-    %w{ar as at au av aw ax ay az ba}.map do |column|
+    %w{az ba bb bc bd be bf bg bh bi}.map do |column|
       code = ((4..55).to_a + (62..90).to_a).map { |row| r("control_#{column}#{row}") }
       {
         name: r("control_#{column}1"),

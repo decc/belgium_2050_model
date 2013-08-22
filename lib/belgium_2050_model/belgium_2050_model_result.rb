@@ -23,7 +23,8 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
       area_tables
       story_tables
       air_quality_tables # Not implemented
-      costs_tables
+      simple_costs_tables
+      complex_costs_tables
     end
     return pathway
   end
@@ -45,16 +46,60 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   end
 
   def energy_security_tables
+    energy_imports
+    energy_diversity
+  end
+
+  def energy_imports
+    sheet_name = "Online Graphs and Color codes"
+    i = {}
+    (189..195).each do |row|
+      i[r("#{sheet_name}_b#{row}")] = {
+        '2010' => {
+          :quanitity => r("#{sheet_name}_d#{row}").to_f,
+          :proportion => r("#{sheet_name}_e#{row}").to_f
+        },
+        '2050' => {
+          :quanitity => r("#{sheet_name}_g#{row}").to_f,
+          :proportion => r("#{sheet_name}_h#{row}").to_f
+        }
+      }
+    end
+    pathway['imports'] = i
+  end
+
+  def energy_diversity
+    sheet_name = "Online Graphs and Color codes"
+    i = {}
+    (202..212).each do |row|
+      i[r("#{sheet_name}_b#{row}")] = {
+        '2010' => "#{(r("#{sheet_name}_d#{row}").to_f*100).round}%",
+        '2050' => "#{(r("#{sheet_name}_g#{row}").to_f*100).round}%"
+      }
+    end
+    pathway['diversity'] = i
   end
 
   def energy_flow_tables
-    # Not implemented
+    s = [] 
+    (6..93).each do |row|
+      s << [r("flows_c#{row}"),r("flows_m#{row}"),r("flows_d#{row}")]
+    end
+    pathway[:sankey] = s
   end
 
   def area_tables
+    m = {}
+    [6..11,15..18,22..22,27..27,31..36].each do |range|
+      range.to_a.each do |row|
+        m[r("land_use_d#{row}")] = r("land_use_p#{row}")
+      end
+    end
+    pathway['map'] = m
   end
 
   def story_tables
+    # Nothing additional neaded?
     #pathway[:ghg][:percent_reduction_from_1990] = (r("control_ae44") * 100).round
   end
 
@@ -62,11 +107,70 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
     # Not implemented
   end
 
-  def costs_tables
+  def simple_costs_tables
     c = {}
     c[:sector] = table 492, 497, 502, 507
     c[:type] = table 509, 510, 511
     pathway[:simple_costs] = c
+  end
+
+  def complex_costs_tables
+    t = {}
+    low_start_row = 3
+    point_start_row = 57
+    high_start_row = 112
+    number_of_components = 49
+    
+    # Normal cost components
+    (0..number_of_components).to_a.each do |i|
+            
+      name          = r("costpercapita_b#{low_start_row+i}")
+      
+      low           = r("costpercapita_as#{low_start_row+i}")
+      point         = r("costpercapita_as#{point_start_row+i}")
+      high          = r("costpercapita_as#{high_start_row+i}")
+      range         = high - low
+      
+      finance_low   = 0 # r("costpercapita_cp{low_start_row+i}") # Bodge for the zero interest rate at low
+      finance_point = r("costpercapita_cp#{point_start_row+i}")
+      finance_high  = r("costpercapita_cp#{high_start_row+i}")
+      finance_range = finance_high - finance_low
+      
+      costs = {low:low,point:point,high:high,range:range,finance_low:finance_low,finance_point:finance_point,finance_high:finance_high,finance_range:finance_range}
+      if t.has_key?(name)
+        t[name] = sum(t[name],costs)
+      else
+        t[name] = costs
+      end
+    end
+    
+    # Merge some of the points
+    t['Coal'] = sum(t['Indigenous fossil-fuel production - Coal'],t['Balancing imports - Coal'])
+    t.delete 'Indigenous fossil-fuel production - Coal'
+    t.delete 'Balancing imports - Coal'
+    t['Oil'] = sum(t['Indigenous fossil-fuel production - Oil'],t['Balancing imports - Oil'])
+    t.delete 'Indigenous fossil-fuel production - Oil'
+    t.delete 'Balancing imports - Oil'
+    t['Gas'] = sum(t['Indigenous fossil-fuel production - Gas'],t['Balancing imports - Gas'])
+    t.delete 'Indigenous fossil-fuel production - Gas'
+    t.delete 'Balancing imports - Gas'
+    
+    # Finance cost
+    name          = "Finance cost"
+    
+    low           = 0 # r("costpercapita_cp#{low_start_row+number_of_components+1}") # Bodge for the zero interest rate at low
+    point         = r("costpercapita_cp#{point_start_row+number_of_components+1}")
+    high          = r("costpercapita_cp#{high_start_row+number_of_components+1}")
+    range         = high - low
+    
+    finance_low   = 0 # r("costpercapita_cp{low_start_row+i}") # Bodge for the zero interest rate at low
+    finance_point = 0
+    finance_high  = 0
+    finance_range = finance_high - finance_low
+    
+    t[name] = {low:low,point:point,high:high,range:range,finance_low:finance_low,finance_point:finance_point,finance_high:finance_high,finance_range:finance_range}
+  
+    pathway['cost_components'] = t
   end
   
   # Helper methods
@@ -122,7 +226,7 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
     end
   end
   
-  CONTROL = (4..55).to_a.map { |r| "control_h#{r}"  } + (4..32).to_a.map { |r| "control_ab#{r}" }
+  CONTROL = (4..55).to_a.map { |r| "control_h#{r}"  } + (4..32).to_a.map { |r| "control_af#{r}" }
   
   def set_choices(code)
     choices = code.split('')
@@ -141,9 +245,7 @@ if __FILE__ == $0
   a = []
   tests.times do
     c = Belgium2050ModelResult::CONTROL.map { rand(4)+1 }.join
-    p c
     a << r = g.calculate_pathway(c)
-    p r
   end
   te = Time.now - t
   puts "#{te/tests} seconds per run"

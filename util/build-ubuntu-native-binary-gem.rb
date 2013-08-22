@@ -107,7 +107,7 @@ puts "Server setup"
 gem_name = server.ssh("ls belgium_2050_model | grep .gem$").first.stdout.strip
 
 puts "Tyring to download gem #{gem_name}"
-server.scp_download("belgium_2050_model/#{gem_name}",".")
+server.scp_download("/home/ubuntu/belgium_2050_model/#{gem_name}",".")
 puts "Downloaded"
 
 puts "Tearing down server"
