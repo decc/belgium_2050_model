@@ -16,6 +16,7 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
       reset
       @pathway = { _id: code, choices: set_choices(code) }
       # One method per view
+      greenhouse_gas_tables
       all_energy_tables
       electricity_tables
       energy_security_tables
@@ -28,17 +29,22 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
     end
     return pathway
   end
-      
-  def all_energy_tables
-    # Each number is a row on the CONTROL worksheet
+  
+def greenhouse_gas_tables
+    # Each number is a row on the OUTPUT worksheet
     pathway[:ghg] = table 399, 400, 401, 402, 403, 404, 405, 406, 407, 409, 411, 412 
+    pathway[:ghg_by_sector] = table 363, 364, 365, 366, 367, 368, 369, 370, 371, 372, 373, 374, 375, 376, 377, 378
+end  
+
+  def all_energy_tables
+    # Each number is a row on the OUTPUT worksheet
     pathway[:final_energy_demand, ] = table 12, 16, 19, 21
     pathway[:primary_energy_supply] = table 27, 28, 29, 30, 31, 32, 33, 34, 36, 41, 44, 48, 51, 52
   end
 
   def electricity_tables
     e = {}
-    # Each number is a row on the CONTROL worksheet
+    # Each number is a row on the OUTPUT worksheet
     e[:emissions] = table 441, 442, 443, 444
     e[:demand] = table 94, 97, 110, 120
     e[:supply] = table 130, 131, 135, 136, 137, 138, 139, 141, 142, 143, 146, 149, 151
@@ -51,16 +57,16 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   end
 
   def energy_imports
-    sheet_name = "Online Graphs and Color codes"
+    sheet_name = "online_graphs_and_color_codes"
     i = {}
     (189..195).each do |row|
       i[r("#{sheet_name}_b#{row}")] = {
         '2010' => {
-          :quanitity => r("#{sheet_name}_d#{row}").to_f,
+          :quantity => r("#{sheet_name}_d#{row}").to_f,
           :proportion => r("#{sheet_name}_e#{row}").to_f
         },
         '2050' => {
-          :quanitity => r("#{sheet_name}_g#{row}").to_f,
+          :quantity => r("#{sheet_name}_g#{row}").to_f,
           :proportion => r("#{sheet_name}_h#{row}").to_f
         }
       }
@@ -69,9 +75,9 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
   end
 
   def energy_diversity
-    sheet_name = "Online Graphs and Color codes"
+    sheet_name = "online_graphs_and_color_codes"
     i = {}
-    (202..212).each do |row|
+    (202..211).each do |row|
       i[r("#{sheet_name}_b#{row}")] = {
         '2010' => "#{(r("#{sheet_name}_d#{row}").to_f*100).round}%",
         '2050' => "#{(r("#{sheet_name}_g#{row}").to_f*100).round}%"
@@ -92,15 +98,41 @@ class Belgium2050ModelResult < Belgium2050ModelUtilities
     m = {}
     [6..11,15..18,22..22,27..27,31..36].each do |range|
       range.to_a.each do |row|
-        m[r("land_use_d#{row}")] = r("land_use_p#{row}")
+        m[r("land_use_c#{row}")] = r("land_use_p#{row}")
       end
     end
     pathway['map'] = m
   end
 
   def story_tables
-    # Nothing additional neaded?
-    #pathway[:ghg][:percent_reduction_from_1990] = (r("control_ae44") * 100).round
+    pathway[:ghg][:percent_reduction_from_1990] = ((1-r("output_ak424")) * 100).round
+    pathway[:electricity][:capacity] = table 160, 164, 165, 166, 167, 168, 172, 173, 174
+    sheet_name = "online_graphs_and_color_codes"
+    pathway[:heating] = {}
+    h = {}
+    (84..88).each do |row|
+      h[r("#{sheet_name}_b#{row}")] = r("#{sheet_name}_c#{row}")
+    end
+    pathway[:heating][:residential] = h
+    h = {}
+    (99..103).each do |row|
+      h[r("#{sheet_name}_b#{row}")] = r("#{sheet_name}_c#{row}")
+    end
+    pathway[:heating][:commercial] = h
+    pathway[:security] = {
+      :imports => {
+        :'2010' => r("#{sheet_name}_o92"),
+        :'2050' => r("#{sheet_name}_p92")
+      },
+      :import_proportion => {
+        :'2010' => r("#{sheet_name}_o93"),
+        :'2050' => r("#{sheet_name}_p93")
+      },
+      :number_of_technologies_to_cover_eighty_five_percent => {
+        :'2010' => r("#{sheet_name}_o98"),
+        :'2050' => r("#{sheet_name}_p98")
+      }
+    }
   end
 
   def air_quality_tables
@@ -246,6 +278,7 @@ if __FILE__ == $0
   tests.times do
     c = Belgium2050ModelResult::CONTROL.map { rand(4)+1 }.join
     a << r = g.calculate_pathway(c)
+    p r[:sankey]
   end
   te = Time.now - t
   puts "#{te/tests} seconds per run"

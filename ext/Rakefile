@@ -2,8 +2,8 @@ require 'ffi'
 
 this_directory = File.dirname(__FILE__)
 
-COMPILER = "gcc"
-COMPILE_FLAGS = "-fPIC"
+COMPILER = "gcc-4.9"
+COMPILE_FLAGS = "-fPIC -Wall"
 SHARED_LIBRARY_FLAGS = "-shared -fPIC"
 
 OUTPUT = FFI.map_library_name "belgium_2050_model"

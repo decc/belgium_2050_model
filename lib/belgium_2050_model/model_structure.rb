@@ -11,7 +11,7 @@ class ModelStructure < Belgium2050ModelUtilities
     @choices = []
     types.each_with_index do |choice_type,i|
       case choice_type
-      when nil, 0.0, 10; next
+      when nil, 0.0; next
       when /[abcd]/i; choices << ModelAlternative.new(i,names[i],choice_type,descriptions[i],long_descriptions[i])
       else; choices << ModelChoice.new(i,names[i],choice_type,descriptions[i],long_descriptions[i])
       end
