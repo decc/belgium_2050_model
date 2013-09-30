@@ -2,7 +2,7 @@ require 'ffi'
 
 this_directory = File.dirname(__FILE__)
 
-COMPILER = "gcc-4.9"
+COMPILER = "gcc"
 COMPILE_FLAGS = "-fPIC -Wall"
 SHARED_LIBRARY_FLAGS = "-shared -fPIC"
 
