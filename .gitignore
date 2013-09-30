@@ -7,5 +7,5 @@ ext/Makefile
 ext/test_belgium_2050_model.rb
 ext/belgium_2050_model.rb
 *.swp
-
+.DS_store
 spreadsheet/~$2050Model.xlsx
