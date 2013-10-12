@@ -162,344 +162,610 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_b21', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c22', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r22', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s22', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_j23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_q23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s23', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t23', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_v23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y23', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z23', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e24', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f24', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g24', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q24', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r24', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s24', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t24', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y24', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z24', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s25', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t25', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y25', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y26', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e27', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f27', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g27', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q27', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r27', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s27', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t27', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y27', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z27', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e28', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f28', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g28', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q28', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r28', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s28', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t28', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y28', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z28', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e29', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f29', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g29', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q29', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r29', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s29', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t29', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y29', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z29', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s30', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t30', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y30', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e31', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f31', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g31', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q31', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r31', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s31', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t31', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z31', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e32', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f32', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g32', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q32', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r32', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s32', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t32', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y32', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z32', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e33', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f33', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g33', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q33', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r33', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s33', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t33', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u33', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u34', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e35', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b36', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c37', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e37', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z33', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w34', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x34', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y34', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z34', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_q38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t38', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u38', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c39', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e39', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f39', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g39', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h39', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r39', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s39', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t39', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u39', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s40', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t40', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_v40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y40', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z40', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c41', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e41', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f41', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g41', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q41', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r41', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s41', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t41', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y41', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z41', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c42', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e42', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f42', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g42', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q42', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r42', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s42', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t42', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z42', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_c43', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e43', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f43', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g43', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q43', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r43', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s43', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t43', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z43', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_c44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s44', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t44', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y44', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a46', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b47', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c48', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e48', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_f45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z45', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z46', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s47', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a48', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_q49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t49', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u49', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c50', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u50', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b51', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e51', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f51', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g51', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_j51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q51', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r51', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s51', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t51', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_v51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y51', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z51', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c52', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e52', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f52', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g52', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q52', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r52', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s52', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t52', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y52', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z52', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c53', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e53', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f53', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g53', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q53', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r53', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s53', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t53', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y53', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z53', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c54', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e54', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f54', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g54', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q54', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r54', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s54', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t54', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y54', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z54', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c55', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e55', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f55', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g55', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q55', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r55', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s55', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t55', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u55', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y55', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z55', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e56', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f56', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g56', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q56', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r56', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s56', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t56', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u56', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y56', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z56', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e57', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f57', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g57', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q57', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r57', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s57', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t57', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u57', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u58', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b60', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c61', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e61', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b62', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z57', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w58', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x58', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y58', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z58', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w59', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x59', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y59', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z59', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w60', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x60', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y60', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z60', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b61', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c62', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_q62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t62', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u62', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s63', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t63', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_v63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y63', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z63', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c64', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e64', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f64', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g64', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q64', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r64', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s64', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t64', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y64', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z64', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c65', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e65', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f65', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g65', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q65', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r65', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s65', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t65', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y65', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z65', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c66', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e66', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f66', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g66', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q66', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r66', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s66', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t66', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y66', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z66', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c67', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e67', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f67', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g67', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q67', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r67', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s67', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t67', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y67', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z67', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c68', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e68', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f68', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g68', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q68', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y68', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z68', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c69', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e69', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f69', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g69', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s69', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w69', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c70', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e70', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f70', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g70', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h70', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_j70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s70', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_c71', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_a73', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b74', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h74', [], ExcelValue.by_value
@@ -548,6 +814,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_m79', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_n79', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o79', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a80', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b80', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c80', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g80', [], ExcelValue.by_value
@@ -557,6 +824,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_m80', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_n80', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o80', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a81', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b81', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c81', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g81', [], ExcelValue.by_value
@@ -646,12 +914,14 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_h94', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_i94', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l94', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a95', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b95', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c95', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g95', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h95', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_i95', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l95', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a96', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b96', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c96', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g96', [], ExcelValue.by_value
@@ -690,6 +960,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_i102', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l102', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m102', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n102', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b103', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c103', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l103', [], ExcelValue.by_value
@@ -828,60 +1099,134 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_b150', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c150', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g150', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a152', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b153', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a155', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a151', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a153', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b154', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_c155', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e155', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b156', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_v156', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w156', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c157', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e157', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_f157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z157', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_c158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_f158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p158', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_q158', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y158', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z158', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c159', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e159', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f159', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g159', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q159', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r159', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s159', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t159', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y159', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z159', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c160', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e160', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f160', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g160', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q160', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r160', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s160', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t160', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y160', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z160', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s161', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t161', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u161', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y161', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e162', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f162', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g162', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q162', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r162', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s162', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t162', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u162', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c163', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e163', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f163', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g163', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q163', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r163', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s163', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t163', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u163', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r164', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s164', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b165', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c166', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e166', [], ExcelValue.by_value
@@ -891,141 +1236,263 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_f167', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g167', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p167', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_q167', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r167', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s167', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t167', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_v167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y167', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z167', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c168', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e168', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f168', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g168', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q168', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r168', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s168', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t168', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y168', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z168', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c169', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e169', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f169', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g169', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q169', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r169', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s169', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t169', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y169', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z169', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c170', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e170', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f170', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g170', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q170', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r170', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s170', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t170', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y170', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z170', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c171', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e171', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f171', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g171', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q171', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r171', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s171', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t171', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y171', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z171', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c172', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e172', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f172', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g172', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q172', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r172', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s172', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t172', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y172', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z172', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c173', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e173', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f173', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g173', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q173', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r173', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s173', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t173', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y173', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z173', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e174', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f174', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g174', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q174', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r174', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s174', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t174', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y174', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z174', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e175', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f175', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g175', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q175', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r175', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s175', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t175', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y175', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z175', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e176', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f176', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g176', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q176', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r176', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s176', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t176', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y176', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z176', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e177', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f177', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g177', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q177', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r177', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s177', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t177', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y177', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z177', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e178', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f178', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g178', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_h178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q178', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_r178', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s178', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_t178', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u178', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a180', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b182', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b184', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_y178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z178', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_j179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s179', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_j180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s180', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s181', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_k182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_n182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_p182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_q182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_r182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_s182', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a184', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b186', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l186', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m186', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d187', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g187', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d188', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e188', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g188', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h188', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l188', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m188', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b189', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d189', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e189', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g189', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h189', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l189', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m189', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b188', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b190', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d190', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e190', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g190', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h190', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l190', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m190', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b191', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d191', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e191', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g191', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h191', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l191', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m191', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b192', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d192', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e192', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g192', [], ExcelValue.by_value
@@ -1053,186 +1520,214 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_h195', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l195', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m195', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b196', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d196', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e196', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g196', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h196', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l196', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m196', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b197', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d197', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e197', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g197', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h197', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l197', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m197', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b198', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d198', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e198', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g198', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h198', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l198', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m198', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b199', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_o199', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b200', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l200', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m200', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_o200', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r200', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u200', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_x200', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d201', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g201', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l201', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m201', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_o201', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u201', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_o202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_x202', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y202', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d199', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_e199', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g199', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h199', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l199', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m199', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b201', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m203', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_x203', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y203', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_d204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g204', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l204', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m204', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_x204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y204', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b205', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w204', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z204', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac204', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d205', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g205', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l205', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m205', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o205', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p205', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r205', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s205', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_u205', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v205', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_x205', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y205', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z205', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o206', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p206', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r206', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_u206', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v206', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x206', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y206', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z206', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa206', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac206', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad206', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o207', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p207', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r207', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_u207', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v207', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x207', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y207', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z207', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa207', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac207', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad207', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o208', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p208', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r208', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_u208', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v208', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x208', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y208', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z208', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa208', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac208', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad208', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o209', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p209', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r209', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_u209', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v209', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x209', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y209', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z209', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa209', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac209', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad209', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o210', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p210', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r210', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_u210', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v210', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x210', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y210', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z210', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa210', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac210', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad210', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_o211', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p211', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r211', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_u211', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_v211', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x211', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_y211', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z211', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa211', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac211', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad211', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b212', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_d212', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g212', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l212', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m212', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r212', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o212', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_u212', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w212', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x212', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z212', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa212', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac212', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad212', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_u213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w213', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad213', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_u214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad214', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_o215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_u215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_x215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_z215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_aa215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac215', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ad215', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b216', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a218', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b219', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_d216', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g216', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_l216', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_m216', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w216', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac216', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_w217', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_ac217', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b220', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b221', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b222', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c222', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a222', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b223', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_c223', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b224', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b225', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b226', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a227', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_c226', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b227', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_c227', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b228', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b229', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b230', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a232', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a231', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b232', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b233', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a235', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b236', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_a238', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_b239', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b234', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a236', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b237', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a239', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b240', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_a242', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b243', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b244', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_a246', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b247', [], ExcelValue.by_value
   # end of Online Graphs and Color codes
 
   # start of temp
@@ -1340,6 +1835,7 @@ module Belgium2050Model
   attach_function 'control_p3', [], ExcelValue.by_value
   attach_function 'control_q3', [], ExcelValue.by_value
   attach_function 'control_u3', [], ExcelValue.by_value
+  attach_function 'control_y3', [], ExcelValue.by_value
   attach_function 'control_ah3', [], ExcelValue.by_value
   attach_function 'control_ai3', [], ExcelValue.by_value
   attach_function 'control_aj3', [], ExcelValue.by_value
@@ -1349,12 +1845,20 @@ module Belgium2050Model
   attach_function 'control_as3', [], ExcelValue.by_value
   attach_function 'control_bo3', [], ExcelValue.by_value
   attach_function 'control_bp3', [], ExcelValue.by_value
-  attach_function 'control_a4', [], ExcelValue.by_value
   attach_function 'control_b4', [], ExcelValue.by_value
   attach_function 'control_c4', [], ExcelValue.by_value
   attach_function 'control_f4', [], ExcelValue.by_value
   attach_function 'control_h4', [], ExcelValue.by_value
   attach_function 'control_p4', [], ExcelValue.by_value
+  attach_function 'control_q4', [], ExcelValue.by_value
+  attach_function 'control_r4', [], ExcelValue.by_value
+  attach_function 'control_s4', [], ExcelValue.by_value
+  attach_function 'control_t4', [], ExcelValue.by_value
+  attach_function 'control_u4', [], ExcelValue.by_value
+  attach_function 'control_v4', [], ExcelValue.by_value
+  attach_function 'control_w4', [], ExcelValue.by_value
+  attach_function 'control_x4', [], ExcelValue.by_value
+  attach_function 'control_y4', [], ExcelValue.by_value
   attach_function 'control_z4', [], ExcelValue.by_value
   attach_function 'control_aa4', [], ExcelValue.by_value
   attach_function 'control_ad4', [], ExcelValue.by_value
@@ -1386,7 +1890,6 @@ module Belgium2050Model
   attach_function 'control_d5', [], ExcelValue.by_value
   attach_function 'control_e5', [], ExcelValue.by_value
   attach_function 'control_f5', [], ExcelValue.by_value
-  attach_function 'control_y5', [], ExcelValue.by_value
   attach_function 'control_aa5', [], ExcelValue.by_value
   attach_function 'control_ab5', [], ExcelValue.by_value
   attach_function 'control_ac5', [], ExcelValue.by_value
@@ -1568,7 +2071,6 @@ module Belgium2050Model
   attach_function 'control_bu9', [], ExcelValue.by_value
   attach_function 'control_e10', [], ExcelValue.by_value
   attach_function 'control_f10', [], ExcelValue.by_value
-  attach_function 'control_y10', [], ExcelValue.by_value
   attach_function 'control_ac10', [], ExcelValue.by_value
   attach_function 'control_ad10', [], ExcelValue.by_value
   attach_function 'control_af10', [], ExcelValue.by_value
@@ -1715,7 +2217,6 @@ module Belgium2050Model
   attach_function 'control_y14', [], ExcelValue.by_value
   attach_function 'control_ac14', [], ExcelValue.by_value
   attach_function 'control_ad14', [], ExcelValue.by_value
-  attach_function 'control_aw14', [], ExcelValue.by_value
   attach_function 'control_ay14', [], ExcelValue.by_value
   attach_function 'control_az14', [], ExcelValue.by_value
   attach_function 'control_ba14', [], ExcelValue.by_value
@@ -1810,7 +2311,6 @@ module Belgium2050Model
   attach_function 'control_d17', [], ExcelValue.by_value
   attach_function 'control_e17', [], ExcelValue.by_value
   attach_function 'control_f17', [], ExcelValue.by_value
-  attach_function 'control_y17', [], ExcelValue.by_value
   attach_function 'control_ac17', [], ExcelValue.by_value
   attach_function 'control_ad17', [], ExcelValue.by_value
   attach_function 'control_af17', [], ExcelValue.by_value
@@ -1843,7 +2343,6 @@ module Belgium2050Model
   attach_function 'control_ab18', [], ExcelValue.by_value
   attach_function 'control_ac18', [], ExcelValue.by_value
   attach_function 'control_ad18', [], ExcelValue.by_value
-  attach_function 'control_aw18', [], ExcelValue.by_value
   attach_function 'control_ax18', [], ExcelValue.by_value
   attach_function 'control_ay18', [], ExcelValue.by_value
   attach_function 'control_az18', [], ExcelValue.by_value
@@ -1948,7 +2447,6 @@ module Belgium2050Model
   attach_function 'control_ab21', [], ExcelValue.by_value
   attach_function 'control_ac21', [], ExcelValue.by_value
   attach_function 'control_ad21', [], ExcelValue.by_value
-  attach_function 'control_aw21', [], ExcelValue.by_value
   attach_function 'control_ax21', [], ExcelValue.by_value
   attach_function 'control_ay21', [], ExcelValue.by_value
   attach_function 'control_az21', [], ExcelValue.by_value
@@ -2001,7 +2499,6 @@ module Belgium2050Model
   attach_function 'control_d23', [], ExcelValue.by_value
   attach_function 'control_e23', [], ExcelValue.by_value
   attach_function 'control_f23', [], ExcelValue.by_value
-  attach_function 'control_y23', [], ExcelValue.by_value
   attach_function 'control_ad23', [], ExcelValue.by_value
   attach_function 'control_af23', [], ExcelValue.by_value
   attach_function 'control_an23', [], ExcelValue.by_value
@@ -2093,7 +2590,6 @@ module Belgium2050Model
   attach_function 'control_d26', [], ExcelValue.by_value
   attach_function 'control_e26', [], ExcelValue.by_value
   attach_function 'control_f26', [], ExcelValue.by_value
-  attach_function 'control_y26', [], ExcelValue.by_value
   attach_function 'control_ad26', [], ExcelValue.by_value
   attach_function 'control_af26', [], ExcelValue.by_value
   attach_function 'control_an26', [], ExcelValue.by_value
@@ -2160,7 +2656,6 @@ module Belgium2050Model
   attach_function 'control_ac28', [], ExcelValue.by_value
   attach_function 'control_ad28', [], ExcelValue.by_value
   attach_function 'control_af28', [], ExcelValue.by_value
-  attach_function 'control_aw28', [], ExcelValue.by_value
   attach_function 'control_ax28', [], ExcelValue.by_value
   attach_function 'control_ay28', [], ExcelValue.by_value
   attach_function 'control_az28', [], ExcelValue.by_value
@@ -2228,7 +2723,6 @@ module Belgium2050Model
   attach_function 'control_ai30', [], ExcelValue.by_value
   attach_function 'control_aj30', [], ExcelValue.by_value
   attach_function 'control_ak30', [], ExcelValue.by_value
-  attach_function 'control_aw30', [], ExcelValue.by_value
   attach_function 'control_ax30', [], ExcelValue.by_value
   attach_function 'control_ay30', [], ExcelValue.by_value
   attach_function 'control_az30', [], ExcelValue.by_value
@@ -2244,12 +2738,10 @@ module Belgium2050Model
   attach_function 'control_d31', [], ExcelValue.by_value
   attach_function 'control_e31', [], ExcelValue.by_value
   attach_function 'control_f31', [], ExcelValue.by_value
-  attach_function 'control_y31', [], ExcelValue.by_value
   attach_function 'control_aa31', [], ExcelValue.by_value
   attach_function 'control_ac31', [], ExcelValue.by_value
   attach_function 'control_ad31', [], ExcelValue.by_value
   attach_function 'control_af31', [], ExcelValue.by_value
-  attach_function 'control_aw31', [], ExcelValue.by_value
   attach_function 'control_ax31', [], ExcelValue.by_value
   attach_function 'control_ay31', [], ExcelValue.by_value
   attach_function 'control_f32', [], ExcelValue.by_value
@@ -2709,6 +3201,7 @@ module Belgium2050Model
   attach_function 'control_w49', [], ExcelValue.by_value
   attach_function 'control_x49', [], ExcelValue.by_value
   attach_function 'control_y49', [], ExcelValue.by_value
+  attach_function 'control_z49', [], ExcelValue.by_value
   attach_function 'control_ax49', [], ExcelValue.by_value
   attach_function 'control_ay49', [], ExcelValue.by_value
   attach_function 'control_az49', [], ExcelValue.by_value
@@ -2734,6 +3227,7 @@ module Belgium2050Model
   attach_function 'control_w50', [], ExcelValue.by_value
   attach_function 'control_x50', [], ExcelValue.by_value
   attach_function 'control_y50', [], ExcelValue.by_value
+  attach_function 'control_z50', [], ExcelValue.by_value
   attach_function 'control_ax50', [], ExcelValue.by_value
   attach_function 'control_ay50', [], ExcelValue.by_value
   attach_function 'control_az50', [], ExcelValue.by_value
@@ -2758,6 +3252,7 @@ module Belgium2050Model
   attach_function 'control_w51', [], ExcelValue.by_value
   attach_function 'control_x51', [], ExcelValue.by_value
   attach_function 'control_y51', [], ExcelValue.by_value
+  attach_function 'control_z51', [], ExcelValue.by_value
   attach_function 'control_ax51', [], ExcelValue.by_value
   attach_function 'control_ay51', [], ExcelValue.by_value
   attach_function 'control_az51', [], ExcelValue.by_value
@@ -2783,6 +3278,7 @@ module Belgium2050Model
   attach_function 'control_w52', [], ExcelValue.by_value
   attach_function 'control_x52', [], ExcelValue.by_value
   attach_function 'control_y52', [], ExcelValue.by_value
+  attach_function 'control_z52', [], ExcelValue.by_value
   attach_function 'control_ax52', [], ExcelValue.by_value
   attach_function 'control_ay52', [], ExcelValue.by_value
   attach_function 'control_az52', [], ExcelValue.by_value
@@ -2807,6 +3303,7 @@ module Belgium2050Model
   attach_function 'control_w53', [], ExcelValue.by_value
   attach_function 'control_x53', [], ExcelValue.by_value
   attach_function 'control_y53', [], ExcelValue.by_value
+  attach_function 'control_z53', [], ExcelValue.by_value
   attach_function 'control_ax53', [], ExcelValue.by_value
   attach_function 'control_ay53', [], ExcelValue.by_value
   attach_function 'control_az53', [], ExcelValue.by_value
@@ -2821,7 +3318,7 @@ module Belgium2050Model
   attach_function 'control_bi53', [], ExcelValue.by_value
   attach_function 'control_e54', [], ExcelValue.by_value
   attach_function 'control_f54', [], ExcelValue.by_value
-  attach_function 'control_y54', [], ExcelValue.by_value
+  attach_function 'control_z54', [], ExcelValue.by_value
   attach_function 'control_ax54', [], ExcelValue.by_value
   attach_function 'control_ay54', [], ExcelValue.by_value
   attach_function 'control_f55', [], ExcelValue.by_value
@@ -2836,6 +3333,7 @@ module Belgium2050Model
   attach_function 'control_w55', [], ExcelValue.by_value
   attach_function 'control_x55', [], ExcelValue.by_value
   attach_function 'control_y55', [], ExcelValue.by_value
+  attach_function 'control_z55', [], ExcelValue.by_value
   attach_function 'control_ax55', [], ExcelValue.by_value
   attach_function 'control_ay55', [], ExcelValue.by_value
   attach_function 'control_az55', [], ExcelValue.by_value
