@@ -160,6 +160,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_a18', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_a20', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b21', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b22', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c22', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e22', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_k22', [], ExcelValue.by_value
@@ -226,19 +227,6 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_x25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_y25', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_z25', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_k26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_n26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_o26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_q26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r26', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_w26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x26', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_y26', [], ExcelValue.by_value
@@ -298,7 +286,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_x30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_y30', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_z30', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e31', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_j31', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_k31', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l31', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m31', [], ExcelValue.by_value
@@ -345,6 +333,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_y34', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_z34', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b38', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b39', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c39', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e39', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b40', [], ExcelValue.by_value
@@ -439,19 +428,6 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_x44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_y44', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_z44', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_e45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_f45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_g45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_h45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_k45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_l45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_m45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_n45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_o45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_p45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_q45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_r45', [], ExcelValue.by_value
-  attach_function 'online_graphs_and_color_codes_s45', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_w45', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_x45', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_y45', [], ExcelValue.by_value
@@ -482,6 +458,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_s47', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_a48', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b49', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b50', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c50', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e50', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b51', [], ExcelValue.by_value
@@ -617,6 +594,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_y60', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_z60', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b61', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b62', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c62', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e62', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b63', [], ExcelValue.by_value
@@ -1089,6 +1067,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_a151', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_a153', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b154', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b155', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c155', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e155', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b156', [], ExcelValue.by_value
@@ -1185,6 +1164,9 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_y161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_z161', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_f162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_g162', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_h162', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_k162', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_l162', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_m162', [], ExcelValue.by_value
@@ -1215,6 +1197,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_r164', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s164', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b165', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b166', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_c166', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e166', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b167', [], ExcelValue.by_value
@@ -1691,6 +1674,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_b220', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_a222', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b223', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b224', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e224', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f224', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g224', [], ExcelValue.by_value
@@ -1764,6 +1748,7 @@ module Belgium2050Model
   attach_function 'online_graphs_and_color_codes_r229', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_s229', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_b230', [], ExcelValue.by_value
+  attach_function 'online_graphs_and_color_codes_b231', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_e231', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_f231', [], ExcelValue.by_value
   attach_function 'online_graphs_and_color_codes_g231', [], ExcelValue.by_value
@@ -4351,6 +4336,12 @@ module Belgium2050Model
 
   # start of Lever descriptions
   # end of Lever descriptions
+
+  # start of CHARTS
+  # end of CHARTS
+
+  # start of COMPARISON
+  # end of COMPARISON
 
   # start of OUTPUT
   attach_function 'output_b1', [], ExcelValue.by_value
@@ -14176,6 +14167,7 @@ module Belgium2050Model
   attach_function 'output_ai489', [], ExcelValue.by_value
   attach_function 'output_aj489', [], ExcelValue.by_value
   attach_function 'output_ak489', [], ExcelValue.by_value
+  attach_function 'output_al489', [], ExcelValue.by_value
   attach_function 'output_am489', [], ExcelValue.by_value
   attach_function 'output_an489', [], ExcelValue.by_value
   attach_function 'output_ao489', [], ExcelValue.by_value
@@ -14194,6 +14186,7 @@ module Belgium2050Model
   attach_function 'output_ai490', [], ExcelValue.by_value
   attach_function 'output_aj490', [], ExcelValue.by_value
   attach_function 'output_ak490', [], ExcelValue.by_value
+  attach_function 'output_al490', [], ExcelValue.by_value
   attach_function 'output_am490', [], ExcelValue.by_value
   attach_function 'output_an490', [], ExcelValue.by_value
   attach_function 'output_ao490', [], ExcelValue.by_value
@@ -14203,15 +14196,6 @@ module Belgium2050Model
   attach_function 'output_as490', [], ExcelValue.by_value
   attach_function 'output_e491', [], ExcelValue.by_value
   attach_function 'output_f491', [], ExcelValue.by_value
-  attach_function 'output_ac491', [], ExcelValue.by_value
-  attach_function 'output_ad491', [], ExcelValue.by_value
-  attach_function 'output_ae491', [], ExcelValue.by_value
-  attach_function 'output_af491', [], ExcelValue.by_value
-  attach_function 'output_ag491', [], ExcelValue.by_value
-  attach_function 'output_ah491', [], ExcelValue.by_value
-  attach_function 'output_ai491', [], ExcelValue.by_value
-  attach_function 'output_aj491', [], ExcelValue.by_value
-  attach_function 'output_ak491', [], ExcelValue.by_value
   attach_function 'output_am491', [], ExcelValue.by_value
   attach_function 'output_an491', [], ExcelValue.by_value
   attach_function 'output_ao491', [], ExcelValue.by_value
@@ -14230,6 +14214,7 @@ module Belgium2050Model
   attach_function 'output_ai492', [], ExcelValue.by_value
   attach_function 'output_aj492', [], ExcelValue.by_value
   attach_function 'output_ak492', [], ExcelValue.by_value
+  attach_function 'output_al492', [], ExcelValue.by_value
   attach_function 'output_am492', [], ExcelValue.by_value
   attach_function 'output_an492', [], ExcelValue.by_value
   attach_function 'output_ao492', [], ExcelValue.by_value
@@ -14251,6 +14236,7 @@ module Belgium2050Model
   attach_function 'output_ai494', [], ExcelValue.by_value
   attach_function 'output_aj494', [], ExcelValue.by_value
   attach_function 'output_ak494', [], ExcelValue.by_value
+  attach_function 'output_al494', [], ExcelValue.by_value
   attach_function 'output_am494', [], ExcelValue.by_value
   attach_function 'output_an494', [], ExcelValue.by_value
   attach_function 'output_e495', [], ExcelValue.by_value
@@ -14264,19 +14250,11 @@ module Belgium2050Model
   attach_function 'output_ai495', [], ExcelValue.by_value
   attach_function 'output_aj495', [], ExcelValue.by_value
   attach_function 'output_ak495', [], ExcelValue.by_value
+  attach_function 'output_al495', [], ExcelValue.by_value
   attach_function 'output_am495', [], ExcelValue.by_value
   attach_function 'output_an495', [], ExcelValue.by_value
   attach_function 'output_e496', [], ExcelValue.by_value
   attach_function 'output_f496', [], ExcelValue.by_value
-  attach_function 'output_ac496', [], ExcelValue.by_value
-  attach_function 'output_ad496', [], ExcelValue.by_value
-  attach_function 'output_ae496', [], ExcelValue.by_value
-  attach_function 'output_af496', [], ExcelValue.by_value
-  attach_function 'output_ag496', [], ExcelValue.by_value
-  attach_function 'output_ah496', [], ExcelValue.by_value
-  attach_function 'output_ai496', [], ExcelValue.by_value
-  attach_function 'output_aj496', [], ExcelValue.by_value
-  attach_function 'output_ak496', [], ExcelValue.by_value
   attach_function 'output_am496', [], ExcelValue.by_value
   attach_function 'output_an496', [], ExcelValue.by_value
   attach_function 'output_ap496', [], ExcelValue.by_value
@@ -14292,6 +14270,7 @@ module Belgium2050Model
   attach_function 'output_ai497', [], ExcelValue.by_value
   attach_function 'output_aj497', [], ExcelValue.by_value
   attach_function 'output_ak497', [], ExcelValue.by_value
+  attach_function 'output_al497', [], ExcelValue.by_value
   attach_function 'output_am497', [], ExcelValue.by_value
   attach_function 'output_an497', [], ExcelValue.by_value
   attach_function 'output_ao497', [], ExcelValue.by_value
@@ -14318,6 +14297,7 @@ module Belgium2050Model
   attach_function 'output_ai499', [], ExcelValue.by_value
   attach_function 'output_aj499', [], ExcelValue.by_value
   attach_function 'output_ak499', [], ExcelValue.by_value
+  attach_function 'output_al499', [], ExcelValue.by_value
   attach_function 'output_am499', [], ExcelValue.by_value
   attach_function 'output_an499', [], ExcelValue.by_value
   attach_function 'output_ao499', [], ExcelValue.by_value
@@ -14336,6 +14316,7 @@ module Belgium2050Model
   attach_function 'output_ai500', [], ExcelValue.by_value
   attach_function 'output_aj500', [], ExcelValue.by_value
   attach_function 'output_ak500', [], ExcelValue.by_value
+  attach_function 'output_al500', [], ExcelValue.by_value
   attach_function 'output_am500', [], ExcelValue.by_value
   attach_function 'output_an500', [], ExcelValue.by_value
   attach_function 'output_ao500', [], ExcelValue.by_value
@@ -14345,15 +14326,6 @@ module Belgium2050Model
   attach_function 'output_as500', [], ExcelValue.by_value
   attach_function 'output_e501', [], ExcelValue.by_value
   attach_function 'output_f501', [], ExcelValue.by_value
-  attach_function 'output_ac501', [], ExcelValue.by_value
-  attach_function 'output_ad501', [], ExcelValue.by_value
-  attach_function 'output_ae501', [], ExcelValue.by_value
-  attach_function 'output_af501', [], ExcelValue.by_value
-  attach_function 'output_ag501', [], ExcelValue.by_value
-  attach_function 'output_ah501', [], ExcelValue.by_value
-  attach_function 'output_ai501', [], ExcelValue.by_value
-  attach_function 'output_aj501', [], ExcelValue.by_value
-  attach_function 'output_ak501', [], ExcelValue.by_value
   attach_function 'output_am501', [], ExcelValue.by_value
   attach_function 'output_an501', [], ExcelValue.by_value
   attach_function 'output_e502', [], ExcelValue.by_value
@@ -14367,6 +14339,7 @@ module Belgium2050Model
   attach_function 'output_ai502', [], ExcelValue.by_value
   attach_function 'output_aj502', [], ExcelValue.by_value
   attach_function 'output_ak502', [], ExcelValue.by_value
+  attach_function 'output_al502', [], ExcelValue.by_value
   attach_function 'output_am502', [], ExcelValue.by_value
   attach_function 'output_an502', [], ExcelValue.by_value
   attach_function 'output_c503', [], ExcelValue.by_value
@@ -14383,6 +14356,7 @@ module Belgium2050Model
   attach_function 'output_ai504', [], ExcelValue.by_value
   attach_function 'output_aj504', [], ExcelValue.by_value
   attach_function 'output_ak504', [], ExcelValue.by_value
+  attach_function 'output_al504', [], ExcelValue.by_value
   attach_function 'output_am504', [], ExcelValue.by_value
   attach_function 'output_an504', [], ExcelValue.by_value
   attach_function 'output_e505', [], ExcelValue.by_value
@@ -14396,6 +14370,7 @@ module Belgium2050Model
   attach_function 'output_ai505', [], ExcelValue.by_value
   attach_function 'output_aj505', [], ExcelValue.by_value
   attach_function 'output_ak505', [], ExcelValue.by_value
+  attach_function 'output_al505', [], ExcelValue.by_value
   attach_function 'output_am505', [], ExcelValue.by_value
   attach_function 'output_an505', [], ExcelValue.by_value
   attach_function 'output_e506', [], ExcelValue.by_value
@@ -14409,6 +14384,7 @@ module Belgium2050Model
   attach_function 'output_ai506', [], ExcelValue.by_value
   attach_function 'output_aj506', [], ExcelValue.by_value
   attach_function 'output_ak506', [], ExcelValue.by_value
+  attach_function 'output_al506', [], ExcelValue.by_value
   attach_function 'output_am506', [], ExcelValue.by_value
   attach_function 'output_an506', [], ExcelValue.by_value
   attach_function 'output_e507', [], ExcelValue.by_value
@@ -14422,6 +14398,7 @@ module Belgium2050Model
   attach_function 'output_ai507', [], ExcelValue.by_value
   attach_function 'output_aj507', [], ExcelValue.by_value
   attach_function 'output_ak507', [], ExcelValue.by_value
+  attach_function 'output_al507', [], ExcelValue.by_value
   attach_function 'output_am507', [], ExcelValue.by_value
   attach_function 'output_an507', [], ExcelValue.by_value
   attach_function 'output_c508', [], ExcelValue.by_value
@@ -14439,6 +14416,7 @@ module Belgium2050Model
   attach_function 'output_ai509', [], ExcelValue.by_value
   attach_function 'output_aj509', [], ExcelValue.by_value
   attach_function 'output_ak509', [], ExcelValue.by_value
+  attach_function 'output_al509', [], ExcelValue.by_value
   attach_function 'output_am509', [], ExcelValue.by_value
   attach_function 'output_an509', [], ExcelValue.by_value
   attach_function 'output_ao509', [], ExcelValue.by_value
@@ -14455,6 +14433,7 @@ module Belgium2050Model
   attach_function 'output_ai510', [], ExcelValue.by_value
   attach_function 'output_aj510', [], ExcelValue.by_value
   attach_function 'output_ak510', [], ExcelValue.by_value
+  attach_function 'output_al510', [], ExcelValue.by_value
   attach_function 'output_am510', [], ExcelValue.by_value
   attach_function 'output_an510', [], ExcelValue.by_value
   attach_function 'output_ao510', [], ExcelValue.by_value
@@ -14471,6 +14450,7 @@ module Belgium2050Model
   attach_function 'output_ai511', [], ExcelValue.by_value
   attach_function 'output_aj511', [], ExcelValue.by_value
   attach_function 'output_ak511', [], ExcelValue.by_value
+  attach_function 'output_al511', [], ExcelValue.by_value
   attach_function 'output_am511', [], ExcelValue.by_value
   attach_function 'output_an511', [], ExcelValue.by_value
   attach_function 'output_ao511', [], ExcelValue.by_value
@@ -14487,6 +14467,7 @@ module Belgium2050Model
   attach_function 'output_ai512', [], ExcelValue.by_value
   attach_function 'output_aj512', [], ExcelValue.by_value
   attach_function 'output_ak512', [], ExcelValue.by_value
+  attach_function 'output_al512', [], ExcelValue.by_value
   attach_function 'output_am512', [], ExcelValue.by_value
   attach_function 'output_an512', [], ExcelValue.by_value
   attach_function 'output_ap512', [], ExcelValue.by_value
@@ -15077,12 +15058,6 @@ module Belgium2050Model
   attach_function 'output_ag578', [], ExcelValue.by_value
   attach_function 'output_ah578', [], ExcelValue.by_value
   # end of OUTPUT
-
-  # start of CHARTS
-  # end of CHARTS
-
-  # start of COMPARISON
-  # end of COMPARISON
 
   # start of Costs
   attach_function 'costs_as1', [], ExcelValue.by_value
@@ -23280,12 +23255,9 @@ module Belgium2050Model
   attach_function 'costs_f203', [], ExcelValue.by_value
   attach_function 'costs_e204', [], ExcelValue.by_value
   attach_function 'costs_f204', [], ExcelValue.by_value
-  attach_function 'costs_m205', [], ExcelValue.by_value
-  attach_function 'costs_m206', [], ExcelValue.by_value
   attach_function 'costs_d207', [], ExcelValue.by_value
   attach_function 'costs_e207', [], ExcelValue.by_value
   attach_function 'costs_f207', [], ExcelValue.by_value
-  attach_function 'costs_m207', [], ExcelValue.by_value
   attach_function 'costs_e208', [], ExcelValue.by_value
   attach_function 'costs_f208', [], ExcelValue.by_value
   attach_function 'costs_e209', [], ExcelValue.by_value
@@ -23354,6 +23326,15 @@ module Belgium2050Model
   attach_function 'costs_m221', [], ExcelValue.by_value
   attach_function 'costs_n221', [], ExcelValue.by_value
   attach_function 'costs_o221', [], ExcelValue.by_value
+  attach_function 'costs_f222', [], ExcelValue.by_value
+  attach_function 'costs_g222', [], ExcelValue.by_value
+  attach_function 'costs_h222', [], ExcelValue.by_value
+  attach_function 'costs_i222', [], ExcelValue.by_value
+  attach_function 'costs_j222', [], ExcelValue.by_value
+  attach_function 'costs_k222', [], ExcelValue.by_value
+  attach_function 'costs_l222', [], ExcelValue.by_value
+  attach_function 'costs_m222', [], ExcelValue.by_value
+  attach_function 'costs_n222', [], ExcelValue.by_value
   attach_function 'costs_e223', [], ExcelValue.by_value
   attach_function 'costs_f224', [], ExcelValue.by_value
   attach_function 'costs_g224', [], ExcelValue.by_value
